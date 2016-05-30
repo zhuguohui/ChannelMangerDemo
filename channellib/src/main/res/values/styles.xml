@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="subscribe_popwindow_anim_style"><!--订阅的pop弹出隐藏动画-->
+        <item name="android:windowEnterAnimation">@anim/subscribe_popshow_anim</item>
+        <item name="android:windowExitAnimation">@anim/subscribe_pophidden_anim</item>
+    </style>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_marginBottom="20dp"
+    android:layout_height="35dp">
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:text="@string/my_cahnnel"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/tv"
+        android:text="@string/tip_drag"
+        android:textColor="@color/tip"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_btn_edit"
+        android:layout_width="56dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@+id/tv_info"
+        android:background="@drawable/bg_btn"
+        android:gravity="center"
+        android:text="@string/edit"
+        android:textColor="@color/red_500"
+        android:textSize="13sp" />
+
+    <View
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/tip" />
+
+    <ImageView
+        android:id="@+id/close_subscribe_view"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/icon_subscribe_up"
+        android:visibility="visible" />
+</RelativeLayout>

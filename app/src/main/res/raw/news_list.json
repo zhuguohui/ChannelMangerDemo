@@ -1,0 +1,51 @@
+[
+    {
+      "title": "今日头条",
+      "channelType": 0,
+      "isFix": 1,
+      "isSubscible": 1,
+      "url": "raw://today_news"
+    },
+    {
+      "title": "区内要闻",
+      "channelType": 0,
+      "isFix": 0,
+      "isSubscible": 1,
+      "url": "raw://today_news"
+    },
+    {
+      "title": "图片新闻",
+      "channelType": 1,
+      "isFix": 0,
+      "isSubscible": 1,
+      "url": "raw://image_news"
+    },
+    {
+      "title": "政策解读",
+      "channelType": 0,
+      "isFix": 0,
+      "isSubscible": 1,
+      "url": "raw://today_news"
+    },
+    {
+      "title": "经济建设",
+      "channelType": 0,
+      "isFix": 0,
+      "isSubscible": 0,
+      "url": "raw://today_news"
+    },
+    {
+      "title": "法规文件",
+      "channelType": 0,
+      "isFix": 0,
+      "isSubscible": 0,
+      "url": "raw://today_news"
+    },
+    {
+      "title": "西藏旅游",
+      "channelType": 0,
+      "isFix": 0,
+      "isSubscible": 0,
+      "url": "raw://today_news"
+    }
+  ]
